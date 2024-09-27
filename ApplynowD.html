@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        fieldset{
+            width: 500px;
+            height: 520px;
+            margin-top: 100px;
+            border-radius: 50px;
+        }
+        form{
+            text-align: center;
+        }
+        button{
+            font-style: oblique;
+            border-radius: 20px;
+            height: 40PX;
+        }
+    </style>
+</head>
+<body>
+    <center>
+    <fieldset>
+        <form ID="myForm" method="post" action="degree.php">
+            <center style="color: red;font-weight: bolder;">REGISTRATION FORM FOR DEGREE</center>
+            <br>
+            <br>
+            NAME:<input type="text" name="NAME"><br><br>
+            FATHER NAME:<input type="text" name="FATHER NAME"><br><br>
+            MOTHER NAME:<input type="text" name="MOTHER NAME"><br><br>
+            DATE OF BIRTH:<input type="date" name="DOB"><br><br>
+            GENDER:<input type="radio" name="GENDER">MALE<input type="radio" name="GENDER">FEMALE<input type="radio" name="GENDER">OTHER<BR><BR>
+            COURSE:<select>
+                <option>B.A</option>
+                <option>B.COM</option>
+                <option>M.COM</option>
+                <option>BBA</option>
+                <option>B.SC</option>
+            </select>
+            <br>
+            <br>
+            EMAIL ID:<input typ="text" name="EMAIL"><br><br>
+            PHONE NUMBER:<input type="number" size="10">
+            <br><br><center><button type="submit"name="REGISTER">REGISTER</button></center><br>
+            <center><button type="button"name="RESET" onclick="resetForm()">RESET</button></center>
+            <bR><button type="button" NAME="BACKTONOTIFICATION" onclick="getback()">BACK TO NOTIFICATIONS</button>
+        </form>
+    </fieldset>
+    </center>
+    <script>
+        function resetForm() {
+          document.getElementById("myForm").reset();
+        }
+        function getback() {
+          window.location.href="notification.html";
+        }
+        </script>
+</body>
+</html>

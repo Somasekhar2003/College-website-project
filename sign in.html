@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <style>
+        fieldset {
+            width: 400px;
+            height: 400px;
+            padding: 16px;
+            align-content: center;
+            margin-left: 500px;
+            margin-top: 150px;
+            background-color: white;
+            border-radius: 10px;
+        }
+        body {
+            background-color: orange;
+            size: 40px;
+        }
+        button {
+            border-radius: 10px;
+            padding: 10px;
+        }
+        input {
+            padding: 10px;
+            border-radius: 10px;
+        }
+        a {
+            text-align: center;
+            margin-left: 40px;
+        }
+    </style>
+</head>
+<body>
+   <fieldset>
+    <h2 style="text-align: center;">SOMU'S UNIVERSITY LOGIN PORTAL</h2>
+    <br><br>
+    <form method="post" action="user_login_details.php">
+        USERNAME:<BR><input type="text" placeholder="abc@gmail.com" size="50px" id="username" name="email"><br><br>
+            PASSWORD:<BR><input type="password" size="50px" minlength="8" id="password" name="password"><br><br>
+                <center><button type="submit" style="size: 50px;">LOG IN</button></center><br><br>
+       <a href="">FORGOT YOUR PASSWORD CLICK HERE</a>
+    </form>
+   </fieldset> 
+</body>
+</html>

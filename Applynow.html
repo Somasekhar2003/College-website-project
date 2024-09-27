@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form for BTECH</title>
+    <style>
+        fieldset {
+            width: 500px;
+            height: 520px;
+            margin-top: 100px;
+            border-radius: 50px;
+        }
+        form {
+            text-align: center;
+        }
+        button {
+            font-style: oblique;
+            border-radius: 20px;
+            height: 40px;
+        }
+    </style>
+</head>
+<body>
+    <center>
+    <fieldset>
+        <form method="post" action="btech.php">
+            <center style="color: red;font-weight: bolder;">REGISTRATION FORM FOR BTECH</center>
+            <br><br>
+            NAME: <input type="text" name="NAME"><br><br>
+            FATHER NAME: <input type="text" name="FATHER_NAME"><br><br>
+            MOTHER NAME: <input type="text" name="MOTHER_NAME"><br><br>
+            DATE OF BIRTH: <input type="date" name="DOB"><br><br>
+            GENDER: <input type="radio" name="MALE" value="Male" checked>MALE
+                    <input type="radio" name="FEMALE" value="Female">FEMALE
+                    <input type="radio" name="OTHER" value="Other">OTHER<br><br>
+            COURSE: <select name="COURSE">
+                        <option value="CSE">CSE</option>
+                        <option value="CSE-AI">CSE-AI</option>
+                        <option value="CSE-AIML">CSE-AIML</option>
+                        <option value="ECE">ECE</option>
+                        <option value="EEE">EEE</option>
+                        <option value="ME">ME</option>
+                        <option value="CIVIL">CIVIL</option>
+                    </select><br><br>
+            EMAIL ID: <input type="text" name="EMAIL"><br><br>
+            PHONE NUMBER: <input type="number" name="PHONE_NUMBER"><br><br>
+            <center><button type="submit" name="REGISTER">REGISTER</button></center><br>
+            <center><button type="reset" name="RESET">RESET</button></center>
+        </form>
+    </fieldset>
+    </center>
+</body>
+</html>

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Website</title>
+    <style>
+        .buttonk{
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            padding: 10px 20px;
+            background-color: red;
+            color: white;
+            border: none; 
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button{
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            padding: 10px 20px;
+            background-color: orange;
+            color: white;
+            border: none; 
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .marquee-button {
+            position: fixed;
+            bottom: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            padding: 10px 20px;
+            color: orange;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            z-index: 9999; 
+        }
+    </style>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="logo.html"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXjlsuMacDlIGHUKs_St_8bXyT8WKC5lkPOQ&usqp=CAU"></a>
+            <a href="" style="text-decoration: none;"><pre style="color: skyblue; font-size: 25px;font-weight:bolder;"> SOMU'S UNIVERSITY</pre></a>
+            <div class="navlinks">
+                <ul>
+                    <li><a href="" onclick="Window.location.href='collegewebsite.html'">HOME</a></li>
+                    <li><a href="About.html">ABOUT</a></li>
+                    <li><a href="Course.html">COURSES</a></li>
+                    <li><a href="notification.html">NOTIFICATIONS</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                    <li><a href="sign in.html">SIGN IN</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="d">
+            <p><h1>WELCOME TO SOMU'S UNIVERSITY<br><br>INDIA'S NO 1 UNIVERSITY</h1></p>
+        </div>
+        <div>
+            <div style="margin: 20%; margin-left: 700px;">
+                <button onclick="window.location.href='About.html'"class="buttonk">EXPLORE NOW</button>
+        </div>
+    </section>
+    <marquee class="marquee-button"><button onclick="window.location.href='notification.html'">Live Admissions are Open Now!</button></marquee>
+</body>
+</html>

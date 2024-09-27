@@ -1,0 +1,88 @@
+*{
+    margin:0;
+    padding:0;
+}
+.header{
+    min-height:100vh;
+    width:100%;
+    background-image:linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url('https://img.freepik.com/free-photo/abstract-blurred-multi-colored-background-generative-ai_169016-30198.jpg?size=626&ext=jpg&ga=GA1.1.2008272138.1708560000&semt=ais');
+    background-position: center;
+    background-size: cover;
+    position: relative; 
+}
+nav{
+    display: flex;
+    padding:2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+nav img{
+    width:90px;
+    border-radius: 60px;
+}
+.navlinks{
+    flex:1;
+    text-align:right;
+}
+.navlinks ul li{
+    list-style: none;
+    display: inline-block;
+    padding:3px 20px;
+    position:relative;
+}
+.navlinks ul li a{
+    color: white;
+    text-decoration: none;
+}
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  div.d{
+    width:90%;
+    color:white;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform :translate(-50%,-50%);
+    text-align:center;
+  }
+  #goBackButton {
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.uu{
+    border-radius:50%; 
+    margin-left:20px;
+}
+.y{
+    margin-left:20px;
+    font-weight: bolder;
+    color: red;
+}
+.kk{
+    float: center;
+    border-radius:60%;
+    width: 250px;
+    height:300px;
+    margin-left:400px;
+    margin-right: 300px;
+}
+.kk1{
+    float: center;
+    border-radius:60%;
+    width: 250px;
+    height:300px;
+    margin-left: px;
+    margin-right:0;
+    display: inline;
+}
+.l{
+    margin-top:500px;
+    margin-left:500px;
+    margin-right: 300px;
+}
